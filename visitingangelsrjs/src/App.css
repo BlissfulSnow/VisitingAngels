@@ -1,0 +1,39 @@
+/* /src/App.cs */
+/* Reset the margin and padding for the entire page */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Prevents vertical scrollbar across the whole page */
+	overflow-x: hidden;
+}
+
+* {
+	font-family: sans-serif;
+}
+
+.page-header {
+	margin: 0 auto;
+	font-size: 30px;
+	/*background-color: #33adbb;*/
+	color: #000;
+	padding: 15px;
+	border-radius: 12px;
+	width: 300px;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	/*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+
+button {
+	font-size: 20px;
+	background-color: #33adbb;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
